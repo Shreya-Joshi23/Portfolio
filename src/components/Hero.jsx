@@ -1,7 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion';
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
 import {ShreyaPortfolio} from '../assets'
 import {useTypewriter,Cursor} from 'react-simple-typewriter'
 
@@ -38,7 +37,6 @@ const Hero = () => {
         </div>    
         {/* <img src={ShreyaPortfolio} className='rounded-3xl fixed  shadow-2xl sm:w-full p-10 lg:p-0 lg:mx-auto  lg:w-1/3 h-[30em]' alt="ShreyaImg" />       */}
       </div>
-      {/* <ComputersCanvas/> */}
       <div
       className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'
       >
