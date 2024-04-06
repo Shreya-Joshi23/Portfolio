@@ -24,13 +24,18 @@ const Contact = () => {
     setForm({...form,[name]:value})
   }
 
+  const SERVICE_ID=import.meta.env.VITE_REACT_SERVICE_ID;
+  const TEMPLATE_ID=import.meta.env.VITE_REACT_TEMPLATE_ID;
+  const API_KEY=import.meta.env.VITE_REACT_API_KEY;
+
+
   // LOGIC TO SEND EMAIL
   const handleSubmit=(e)=>{
     e.preventDefault();
     setloading(true);
     emailjs.send(
-      'service_6r5709r',
-      'template_4l1ufrj',
+      SERVICE_ID,
+      TEMPLATE_ID,
       {
         from_name:form.name,
         to_name:"Shreya Joshi",
@@ -38,7 +43,7 @@ const Contact = () => {
         to_email:'joshi2003shreya@gmail.com',
         message:form.message,
       },
-      '92Mc6vaM4R3SjgCwv'
+      API_KEY
       )
       .then(()=>{
         setloading(false);
