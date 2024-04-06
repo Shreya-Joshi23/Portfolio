@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "public",
+			"path": "../../../myportfolio/public/public"
+		},
+		{
+			"name": "3dPortfolio",
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
