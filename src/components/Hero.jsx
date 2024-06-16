@@ -1,7 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion';
 import { styles } from '../styles';
-import {ShreyaPortfolio} from '../assets'
 import {useTypewriter,Cursor} from 'react-simple-typewriter'
 
 const Hero = () => {
