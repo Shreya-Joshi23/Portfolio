@@ -14,12 +14,12 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-// import typescript from "./tech/typescript.png";
+import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import bookshop from "./bookshop.png";
-import calci from "./calci.png";
-import tictactoe from "./tictactoe.png";
+import cell from "./cell.png";
+import bot from "./bot.png";
 
 export {
   logo,
@@ -32,6 +32,7 @@ export {
   git,
   html,
   javascript,
+  typescript,
   mongodb,
   nodejs,
   reactjs,
@@ -39,6 +40,6 @@ export {
   tailwind,
   threejs,
   bookshop,
-  calci,
-  tictactoe,
+  bot,
+  cell,
 };
