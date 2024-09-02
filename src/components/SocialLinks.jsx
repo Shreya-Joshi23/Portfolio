@@ -30,7 +30,7 @@ const SocialLinks=()=>{
                     Resume<GrResume size={30}/>
                 </>
             ),
-            href:'./resume.pdf',
+            href:'https://drive.google.com/file/d/1vu5KqpPfICFsoyzDbCw46U7AGmGxZjcB/view?usp=sharing',
             style:'rounded-br-md',
             download:true,
         },
