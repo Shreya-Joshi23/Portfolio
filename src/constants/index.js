@@ -12,8 +12,9 @@ import {
     nodejs,
     git,
     bookshop,
-    calci,
-    tictactoe,
+    cell,
+    bot,
+    typescript
   } from "../assets";
   
   export const navLinks = [
@@ -39,16 +40,7 @@ import {
     {
       title: "Web Developer",
       icon: web,
-    },
-    // {
-    //   title: "React Native Developer",
-    //   icon: mobile,
-    // },
-    // {
-    //   title: "Backend Developer",
-    //   icon: backend,
-    // },
-    
+    }
   ];
   
   const technologies = [
@@ -63,6 +55,10 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "Typescript",
+      icon: typescript,
     },
     {
       name: "React JS",
@@ -95,68 +91,89 @@ import {
   ];
   
   const projects = [
-   
+    // Reactjs, MaterialUI, Node.js, Express.js, Mongodb
     {
-      name: "Calculator",
+      name: "College Placement Cell Platform",
       description:
-        "This project allows users to perform basic calculations of addition,subtraction,division,multiplication and percentage.",
+        "Developed an AI Chatbot application with a seamless user experience using the Gemini API, featuring strong authentication mechanisms and optimized backend processes for enhanced security and performance.",
       tags: [
         {
-          name: "html",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
-          color: "green-text-gradient",
+          name: "MaterialUI",
+          color: "blue-text-gradient",
         },
         {
-          name: "javascript",
-          color: "pink-text-gradient",
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "blue-text-gradient",
         },
       ],
-      image: calci,
-      source_code_link: "https://github.com/Shreya-Joshi23/Calculator",
+      image: cell,
+      source_code_link: "https://placement-cell-project-sigma.vercel.app",
     },
+    // Technologies used – Reactjs, MaterialUI, Node.js, Express.js, Mongodb
     {
-      name: "Tic-tac-toe",
+      name: "AI-ChatBot",
       description:
-        "This is basic game of X and O that can be played between two players.",
+        "This AI Chatbot application, inspired by Gemini, is built using the MERN stack. It’s a highly customized chatbot where each user's message is securely stored in a database, with options to retrieve and delete messages.",
       tags: [
         {
-          name: "html",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "MaterialUI",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Node.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: tictactoe,
-      source_code_link: "https://github.com/Shreya-Joshi23/Tic-Tac-Toe",
+      image: bot,
+      source_code_link: "https://github.com/Shreya-Joshi23/AI-ChatBot---MERN",
     }, {
-      name: "BookShop Management System",
+      name: "BookStore Application",
       description:
-        "This Bookshop management system project allows booksellers to easily add,update,search,delete books in the bookstore and allows buyers to buy books.",
+        "📚This is a bookstore application where only authenticated user can see all books info. , add books to cart ,works both in light and dark mode..📚",
       tags: [
         {
-          name: "C++",
+          name: "React.js",
           color: "blue-text-gradient",
         },
-        // {
-        //   name: "mongodb",
-        //   color: "green-text-gradient",
-        // },
-        // {
-        //   name: "tailwind",
-        //   color: "pink-text-gradient",
-        // },
+        {
+          name: "Node.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "pink-text-gradient",
+        },
       ],
       image: bookshop,
-      source_code_link: "https://github.com/Shreya-Joshi23/Book_Shop_Management_System",
+      source_code_link: "https://github.com/Shreya-Joshi23/BookStore-Application---MERN",
     },
   ];
   
