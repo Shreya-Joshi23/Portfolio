@@ -14,7 +14,8 @@ import {
     bookshop,
     cell,
     bot,
-    typescript
+    typescript,
+    quiz
   } from "../assets";
   
   export const navLinks = [
@@ -151,9 +152,8 @@ import {
       image: bot,
       source_code_link: "https://github.com/Shreya-Joshi23/AI-ChatBot---MERN",
     }, {
-      name: "BookStore Application",
-      description:
-        "📚This is a bookstore application where only authenticated user can see all books info. , add books to cart ,works both in light and dark mode..📚",
+      name: "QuiZio - A Quiz Application",
+      description:"A quiz application with role-based dashboards: Admins can create, edit, and manage quizzes and questions, while users can attempt quizzes hosted by different admins and view their scores. The application ensures secure authentication and validation for all users",
       tags: [
         {
           name: "React.js",
@@ -172,8 +172,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: bookshop,
-      source_code_link: "https://github.com/Shreya-Joshi23/BookStore-Application---MERN",
+      image: quiz,
+      source_code_link: "https://github.com/Shreya-Joshi23/QuiZio---A-Quiz-Application",
     },
   ];
   
