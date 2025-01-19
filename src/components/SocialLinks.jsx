@@ -1,9 +1,19 @@
 import React from 'react'
 import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import { GrResume } from "react-icons/gr";
+import { RiTwitterXLine } from "react-icons/ri";
 
 const SocialLinks=()=>{
     const links=[
+        {
+            id:2,
+            child:(
+                <>
+                    Twitter<RiTwitterXLine size={30}/>
+                </>
+            ),
+            href:'https://github.com/Shreya-Joshi23',
+        },
         {
             id:1,
             child:(
@@ -30,10 +40,10 @@ const SocialLinks=()=>{
                     Resume<GrResume size={30}/>
                 </>
             ),
-            href:'https://drive.google.com/file/d/1vu5KqpPfICFsoyzDbCw46U7AGmGxZjcB/view?usp=sharing',
+            href:'https://drive.google.com/file/d/1vdRaa8-ORQdPvxhZRsslBPutQFj3tUa0/view?usp=sharing',
             style:'rounded-br-md',
             download:true,
-        },
+        }
     ]
 
     return (
