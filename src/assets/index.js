@@ -20,9 +20,11 @@ import threejs from "./tech/threejs.svg";
 import bookshop from "./bookshop.png";
 import cell from "./cell.png";
 import bot from "./bot.png";
+import quiz from "./quiz.png"
 
 export {
   logo,
+  quiz,
   creator,
   web,
   github,
